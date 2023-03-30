@@ -1,0 +1,32 @@
+*{
+    margin: auto;
+}
+
+body {
+    background-color: seashell;
+    
+   }
+
+h1, p {
+font-family: 'Cormorant Garamond', serif;
+text-align: center;
+}
+
+.en-tete{
+    margin: auto;
+    position: relative; 
+    background-color: white;
+
+}
+
+.pied-de-page{
+    margin: auto;
+    position: relative;
+    background-color: white;
+
+}
+.logo{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+   }

@@ -1,0 +1,256 @@
+*{
+    margin:auto;
+}
+
+body {
+  background-color: rgb(248, 240, 235);
+ }
+
+h1 {
+    color:darkgreen;
+    background-color: white;
+    border-radius: 50px;
+    text-align:center;
+    font-family: 'Cormorant Garamond', serif;
+    width: 400px;
+    font-size: 70px;
+    
+}
+
+p {
+text-align: center;
+font-family: 'Cormorant Garamond', serif;
+}
+
+.bouton-accueil {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid darkgreen;
+  border-radius: 30px;
+  color: darkgreen;
+  background-color: seashell;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.en-tete{
+    margin: auto;
+    position: relative; 
+    background-color: white;
+}
+
+.pied-de-page{
+    
+    background-color: white;
+    height: 150px;
+    text-align: center;
+    
+  }
+
+
+
+
+.photos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  padding-left: 150px;
+  
+
+}
+
+.banniere {
+  padding: 100px;
+  background-image: url("photos/BandeauPrincipal-01.jpeg");
+  margin: auto;
+  background-size: cover;
+  background-position: center;
+}
+
+.banniere h1{
+  font-size: 40px;
+  padding: 50px;
+}
+
+.logo img{ 
+ height: 100px;
+ width: 100px;
+ border-radius: 100px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 2px;
+ 
+}
+
+nav{
+  flex:1;
+  text-align: right;
+}
+
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+
+}
+
+nav ul li{
+  display: inline-block;
+  margin-right: 20px;
+
+}
+
+nav ul li a{
+  color:black;
+  text-decoration: none;
+}
+
+.nav-img{
+  height: 50px;
+  width: 50px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 20px;
+  display: inline-block;
+  
+}
+.container-header {
+  height: 13øpx;
+
+}
+
+
+
+
+/* Style de la section categories*/
+
+
+
+.photo1 {
+  flex-basis: 30%;
+  min-width: 250px;
+  margin: auto;
+}
+
+/* Style section nom des catégories */
+
+.onglets {
+  margin: auto;
+}
+
+h2 {
+  font-size: 55px;
+  text-align: center;
+  font-weight: 100;
+}
+
+.onglet1 {
+    
+  
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.onglet1:after {
+  content: "";
+  background-color: rgb(146, 205, 123);
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.onglet1:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+.onglet2 {
+    
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.onglet2:after {
+  content: "";
+  background-color: rgb(146, 205, 123);
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.onglet2:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+.onglet3 {
+
+      font-size: 16px;
+      font-weight: 200;
+      padding: 13px 20px 13px;
+      outline: 0;
+      border: 1px solid black;
+      cursor: pointer;
+      position: relative;
+      background-color: rgba(0, 0, 0, 0);
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    }
+    
+    .onglet3:after {
+      content: "";
+      background-color: rgb(146, 205, 123);
+      width: 100%;
+      z-index: -1;
+      position: absolute;
+      height: 100%;
+      top: 7px;
+      left: 7px;
+      transition: 0.2s;
+    }
+    
+    .onglet3:hover:after {
+      top: 0px;
+      left: 0px;
+    }
+
+
+img {
+  height: 220px;
+  width: 220px;
+  justify-content: space-around;
+  margin: auto;
+}
