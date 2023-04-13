@@ -53,10 +53,11 @@ font-family: 'Cormorant Garamond', serif;
 .photos {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   width: 100%;
   margin: auto;
-  padding-left: 150px;
+  padding-right: 150px;
+  
   
 
 }
@@ -130,10 +131,13 @@ nav ul li a{
 
 
 
-.photo1 {
-  flex-basis: 30%;
-  min-width: 250px;
-  margin: auto;
+.photos-categories {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1px 1px 1px;
+  gap: 105px;
+  padding-right: 50px;
+ 
 }
 
 /* Style section nom des catégories */
@@ -253,4 +257,14 @@ img {
   width: 220px;
   justify-content: space-around;
   margin: auto;
+}
+
+.btn-categories {
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+h2 {
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
