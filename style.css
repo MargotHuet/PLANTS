@@ -47,9 +47,6 @@ font-family: 'Cormorant Garamond', serif;
     
   }
 
-
-
-
 .photos {
   display: flex;
   flex-direction: row;
@@ -57,13 +54,10 @@ font-family: 'Cormorant Garamond', serif;
   width: 100%;
   margin: auto;
   padding-right: 150px;
-  
-  
-
 }
 
 .banniere {
-  padding: 100px;
+  padding: 180px;
   background-image: url("photos/BandeauPrincipal-01.jpeg");
   margin: auto;
   background-size: cover;
@@ -137,13 +131,16 @@ nav ul li a{
   grid-template-rows: 1px 1px 1px;
   gap: 105px;
   padding-right: 50px;
- 
 }
 
 /* Style section nom des catégories */
 
 .onglets {
-  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1px 1px 1px;
+  gap: 105px;
+  padding-right: 50px;
 }
 
 h2 {
@@ -153,8 +150,6 @@ h2 {
 }
 
 .onglet1 {
-    
-  
   font-size: 16px;
   font-weight: 200;
   letter-spacing: 1px;
@@ -259,10 +254,6 @@ img {
   margin: auto;
 }
 
-.btn-categories {
-  padding-top: 40px;
-  padding-bottom: 50px;
-}
 
 h2 {
   margin-top: 70px;
